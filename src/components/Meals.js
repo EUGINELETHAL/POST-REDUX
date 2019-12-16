@@ -15,16 +15,12 @@ class Meals extends Component {
 
     render() {
         const mealItems=this.props.meals.map(meal=> (
-           <div className = "col-md-3" key = {meal.id}>
+           <div className = "col-md-4" key = {meal.id}>
      
       
-    <h3>{meal.name}</h3>
-
-      
-     
-
+    
 <img className="image-styling" src={meal.imageUrl} />
-
+<h4>{meal.name}</h4>
         <p>{meal.price}</p>
        <p>{meal.priceCurrency}</p>
 
@@ -33,7 +29,7 @@ class Meals extends Component {
 
     return (
             <div>
-            <h1>Popular Vendors</h1>
+            <h1 className="Popular">Popular Vendors</h1><br></br>
             {mealItems}
 
 

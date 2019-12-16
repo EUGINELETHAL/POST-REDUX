@@ -3,8 +3,8 @@ import '../App.css'
 import { NavLink } from 'react-router-dom';
 const Nav = () => (
   <div className="topnav">
-  <a><NavLink to='/'>Home</NavLink></a>
-  <a><NavLink to='/about'>About</NavLink></a>
+  <a><NavLink to='/'>Book-A-Meal</NavLink></a>
+  <a><NavLink to='/about'>Join as a Vendor</NavLink></a>
   <div className="search-container">
     <form action="/action_page.php">
       <input type="text" placeholder="Search.." name="search"/>
@@ -12,6 +12,7 @@ const Nav = () => (
     </form>
   </div>
 </div>
+
    
  );
 export default Nav
