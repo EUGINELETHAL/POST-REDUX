@@ -1,14 +1,18 @@
 import React from 'react';
-import Posts from "./components/Posts";
 
+import Main from "./components/Main";
 
 
 function App() {
   return (
     
 
-    <div className="App">
-      <Posts/>
+  <div className="App">
+   
+    <Main/>  
+   
+      
+
     </div>
     
   );

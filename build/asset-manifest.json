@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/POST-REDUX/static/css/main.34de6062.chunk.css",
+    "main.js": "/POST-REDUX/static/js/main.8583a40e.chunk.js",
+    "main.js.map": "/POST-REDUX/static/js/main.8583a40e.chunk.js.map",
+    "runtime-main.js": "/POST-REDUX/static/js/runtime-main.4a36f451.js",
+    "runtime-main.js.map": "/POST-REDUX/static/js/runtime-main.4a36f451.js.map",
+    "static/js/2.03d0ed73.chunk.js": "/POST-REDUX/static/js/2.03d0ed73.chunk.js",
+    "static/js/2.03d0ed73.chunk.js.map": "/POST-REDUX/static/js/2.03d0ed73.chunk.js.map",
+    "index.html": "/POST-REDUX/index.html",
+    "precache-manifest.0c1fcef8b2d84808e08c748250d8e4a2.js": "/POST-REDUX/precache-manifest.0c1fcef8b2d84808e08c748250d8e4a2.js",
+    "service-worker.js": "/POST-REDUX/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/POST-REDUX/static/css/main.34de6062.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a36f451.js",
+    "static/js/2.03d0ed73.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.8583a40e.chunk.js"
+  ]
+}

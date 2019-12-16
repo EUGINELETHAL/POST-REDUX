@@ -1,0 +1,45 @@
+ import React, { Component } from 'react'
+ import PropTypes from 'prop-types';
+import {connect} from 'react-redux';
+import {fetchMeals} from '../actions/mealActions'
+
+
+
+
+
+class Meals extends Component {
+    componentWillMount(){
+        this.props.fetchMeals();
+    }
+    
+
+    render() {
+        const mealItems=this.props.meals.map(meal=> (
+            <div key = {meal.id}>
+    <h3>{meal.name}</h3>
+        <p>{meal.price}</p>
+        </div>
+        )); 
+
+    return (
+            <div>
+            <h1>Popular meals</h1>
+            {mealItems}
+
+
+            </div>
+        );
+    }
+}
+
+
+Meals.propTypes = {
+fetchMeals:PropTypes.func.isRequired,
+meals:PropTypes.array.isRequired
+}
+
+const mapStateToProps = state => ({
+    meals:state.posts.items
+});
+
+export default connect(mapStateToProps,{fetchMeals})(Meals);
