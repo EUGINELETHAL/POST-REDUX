@@ -3,6 +3,7 @@
 import {connect} from 'react-redux';
 import {fetchMeals} from '../actions/mealActions'
 import '../App.css'
+import '../material.css'
 
 
 
@@ -15,7 +16,7 @@ class Meals extends Component {
 
     render() {
         const mealItems=this.props.meals.map(meal=> (
-           <div className = "col-md-3" key = {meal.id}>
+           <div className = "col-md-4" key = {meal.id}>
      
       
     
@@ -26,14 +27,43 @@ class Meals extends Component {
 
         </div>
         )); 
+const meals=this.props.meals.map(meal=> (
+   
+    <div className="col-md-4" key = {meal.id}>
+     
+                  <div className="card card-plain card-blog">
+                    <div className="card-header card-header-image">
+                      <a href="#pablo">
+                        <img className="img img-raised" style={{height:"220px"}} src={meal.imageUrl} />
+                      </a>
+                    </div>
+                    <div className="card-body ">
+                      
+                      <h2 className="card-title">
+                        <a href="#pablo">{meal.name}</a>
+                      </h2>
+                      <p className="card-description">
+                        <p>{meal.priceCurrency}{meal.price}</p>
+                        <a href="#pablo"> Read More </a>
+                      </p>
+                    </div>
+                  </div>
+                
+    
+
+
+        
+ 	</div>
+        )); 
 
     return (
-            <div>
-            <h1 className="Popular">Popular Vendors</h1><br></br>
-            {mealItems}
-
+		
+	<div className="col-md-12 ml-auto mr-auto">
+              <h1 className="title" style={{textAlign:"center"}}>Popular Meals and Restaurants</h1>
+              {meals}
 
             </div>
+         
         );
     }
 }
