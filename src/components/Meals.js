@@ -57,12 +57,47 @@ const meals=this.props.meals.map(meal=> (
         )); 
 
     return (
+<>
+<div className="subscribe-line subscribe-line-image">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6 ml-auto mr-auto">
+                <div className="text-center">
+                  <h2 className="title">Order your Favorite Meal</h2>
+                  <p className="description">
+                    30% OFF on your first order valid from 25th Dec - 7th January 2020.
+                  </p>
+                </div>
+                <div className="card card-raised card-form-horizontal">
+                  <div className="card-body ">
+                    <form method="" action="#">
+                      <div className="row">
+                        <div className="col-lg-8 col-md-6 ">
+                          <span className="bmd-form-group"><div className="input-group">
+                            <div className="input-group-prepend">
+                          
+                            </div>
+                            <input type="email" value="" placeholder="Enter Delivery Address..." className="form-control"></input>
+                          </div></span>
+                        </div>
+                        <div className="col-lg-4 col-md-6 ">
+                          <button type="button" className="btn btn-primary btn-block">Search</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 		
 	<div className="col-md-12 ml-auto mr-auto">
               <h1 className="title" style={{textAlign:"center"}}>Popular Meals and Restaurants</h1>
               {meals}
 
             </div>
+   </>
          
         );
     }
