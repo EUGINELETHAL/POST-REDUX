@@ -30,7 +30,7 @@
   { 
     "id":4,
     "name": "Tasty Cupcakes",
-    "imageUrl": "https://reserve-a-meal5.herokuapp.com/static/img/menu/menu_1.jpg/",
+    "imageUrl": "https://reserve-a-meal5.herokuapp.com/static/img/menu/menu_1.jpg",
     "price": 115,
     "priceCurrency": "EUR",
    "lat": 48.88184,
@@ -39,7 +39,7 @@
   { 
     "id":5,
     "name": "Bohemian and Chic in Paris",
-    "imageUrl": "https://www.shutterstock.com/image-photo/cape-town-south-africa-july-27-1462865564/",
+    "imageUrl": "https://www.shutterstock.com/image-photo/cape-town-south-africa-july-27-1462865564",
     "price": 135,
     "priceCurrency": "EUR",
     "lat": 48.888839,
@@ -47,7 +47,7 @@
   },
   { "id":6,
     "name": "Bohemian and Chic in Paris",
-    "imageUrl": "https://pixabay.com/photos/kfc-kentucky-fried-chicken-san-juan-1574389/",
+    "imageUrl": "https://pixabay.com/photos/kfc-kentucky-fried-chicken-san-juan-1574389",
     "price": 90,
     "priceCurrency": "EUR",
     "lat": 48.827855,
