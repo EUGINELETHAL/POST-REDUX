@@ -1,10 +1,6 @@
-React-Redux Blog
-Front-end for a simple React-Redux Blog.
+## BOOK-A-MEAL REACT-REDUX
 
-User Stories
- 
-*User can read blogposts
- *Users can write and edit posts
+Book-A-Meal is a responsive React-Redux  application that allows customers to search make food orders .
 
 Link to Heroku live deployment
 Link to API
@@ -13,7 +9,7 @@ Built with:
 React + Redux
 MaterialDesignBootstrap(MDB)
 Create-React-App
-
+[![Booka-meal.png](https://i.postimg.cc/Gp56nRt1/Booka-meal.png)](https://postimg.cc/Jyjpj9jT)
 
 Getting started
 
